@@ -14,9 +14,11 @@ void fun(int n,...)
 		count++;
 	
 		printf("%d",x);
-		if(count>2){
+	/*	if(count>3){
 			break;
+	
 		}
+	*/
 	}
 
 	printf("\n");
