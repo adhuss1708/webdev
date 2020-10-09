@@ -20,10 +20,10 @@ int main(int argc,char *argv[])
 
 	char ch;
 	ch = fgetc(fp); // Printing char by char from the file
-	printf("%c", ch);
+	printf("%c",ch);
 
 	while((ch = fgetc(fp)) !=EOF) //Reading all characters from file one by one 
-	printf("%c", ch);//Printing whole file
+	printf("%c",ch);//Printing whole file
 	printf("\n");
 
 }
