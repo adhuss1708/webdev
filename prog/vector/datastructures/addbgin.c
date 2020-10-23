@@ -33,6 +33,8 @@ void print()
 int main()
 {
         char ch;
+	
+
 
 do{
 add_begin();
